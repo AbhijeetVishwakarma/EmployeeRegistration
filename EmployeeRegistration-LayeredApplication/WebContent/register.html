@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Registration Form</title>
+</head>
+<style>
+table , th , td{
+border: 3px solid black;
+border-radius: 4px;
+border-collapse:collapse;
+} 
+
+</style>
+<body>
+	<form style="align-self: center;" action="register" method="post">
+		<div align="center">
+			<table>
+				<tr>
+					<th colspan="2">EMPLOYEE REGISTRATION FORM</th>
+				</tr>
+				<tr>
+					<td>EMPLOYEE NAME</td>
+					<td><input type="text" name="ename" /></td>
+				</tr>
+				<tr>
+					<td>EMPLOYEE ADDRESS</td>
+					<td><input type="text" name="eaddress" /></td>
+				</tr>
+				<tr>
+					<td>EMPLOYEE DESIGNATION</td>
+					<td><input type="text" name="edesignation" /></td>
+				</tr>
+				<tr>
+					<td>EMPLOYEE GENER</td>
+					<td><input type="radio" name="gender" value="Male"   checked/>MALE
+						&nbsp; &nbsp; <input type="radio" name="gender" value="Female"  checked />Female</td>
+				</tr>
+				<tr>
+					<td>BASIC SALARY</td>
+					<td><input type="text" name="esalary" /></td>
+				</tr>
+				<tr>
+					<td><input type="submit" name="submit" value="submit" /></td>
+					<td><input type="reset" name="reset" value="cancel" /></td>
+				</tr>
+			</table>
+		</div>
+	</form>
+
+</body>
+</html>
